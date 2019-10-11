@@ -1,0 +1,56 @@
+html {
+  font-family: 'open-sans', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(#163d8b, #54c1f4);
+  padding: 5rem;
+}
+main {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 3rem;
+  background-color:white;
+  text-align: center;
+  box-shadow: 0px 0px 10px 1px black;
+}
+.story-list {
+  text-align: left;
+}
+.user-input {
+  width: 30%; 
+  padding: 0.5rem;
+  border-radius: 10px 0px 0px 10px ;
+  border: 1px solid grey;
+  font-size: 1rem;
+}
+.user-input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 1px black;
+  transition: all 0.4s;
+}
+input[type='submit' ] {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.5rem;
+  border-radius: 0px 10px 10px 0px ;
+  border: 1px solid #163d8b;
+  font-size: 1rem;
+  margin-left: -5px;
+  cursor: pointer;
+  background-image:linear-gradient(to right,#163d8b 50%, #54c1f4 50%);
+  background-position: left bottom;
+  background-size: 200% 100%;
+  transition: all 0.4s ease;
+  color: white;
+}
+input[type='submit']:hover {
+  background-position: right bottom;
+}
+input[type='submit']:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 1px #163d8b;
+}
